@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic"
+            rel="stylesheet"
+        />
+
+        <title>Calculator</title>
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="calculator">
+                <input
+                    class="calculator__visor"
+                    id="visor"
+                    type="text"
+                    maxlength="14"
+                    readonly
+                />
+                <div class="buttons">
+                    <div class="buttons__row">
+                        <input
+                            type="button"
+                            class="buttons__btn buttons__btn--function"
+                            value="C"
+                        />
+                        <input
+                            type="button"
+                            class="buttons__btn buttons__btn--function"
+                            value="CE"
+                        />
+                        <input type="button" class="buttons__btn" value="." />
+                        <input
+                            type="button"
+                            class="buttons__btn buttons__btn--function"
+                            value="/"
+                        />
+                    </div>
+                    <div class="buttons__row">
+                        <input type="button" class="buttons__btn" value="7" />
+                        <input type="button" class="buttons__btn" value="8" />
+                        <input type="button" class="buttons__btn" value="9" />
+                        <input
+                            type="button"
+                            class="buttons__btn buttons__btn--function"
+                            value="*"
+                        />
+                    </div>
+                    <div class="buttons__row">
+                        <input type="button" class="buttons__btn" value="4" />
+                        <input type="button" class="buttons__btn" value="5" />
+                        <input type="button" class="buttons__btn" value="6" />
+                        <input
+                            type="button"
+                            class="buttons__btn buttons__btn--function"
+                            value="-"
+                        />
+                    </div>
+                    <div class="buttons__row">
+                        <input type="button" class="buttons__btn" value="1" />
+                        <input type="button" class="buttons__btn" value="2" />
+                        <input type="button" class="buttons__btn" value="3" />
+                        <input
+                            type="button"
+                            class="buttons__btn buttons__btn--function"
+                            value="+"
+                        />
+                    </div>
+                    <div class="buttons__row">
+                        <input type="button" class="buttons__btn" value="00" />
+                        <input type="button" class="buttons__btn" value="0" />
+                        <input
+                            type="button"
+                            class="buttons__btn buttons__btn--function"
+                            value="="
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
