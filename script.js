@@ -46,5 +46,3 @@ function num(button) {
     const visor = document.getElementById("visor");
     visor.value = visor.value + button.value;
 }
-
-uma simples calculadora
